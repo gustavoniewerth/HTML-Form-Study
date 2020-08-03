@@ -1,0 +1,21 @@
+input = entradas de dados - 99% sao desse tipo
+
+type = tipo de entrada - text - textos
+
+name e id = identificar campos - linguagens usam o id e/ou name para pegar o que foi digitado pelo usuario - campos de texto o id e name devem ser iguais
+
+em campos onde o usuario faz a digitaçao, NUNCA USAR VALUE - value sempre sera um valor digitado pelo usuario
+
+placeholder = texto que auxilia no preenchimento do formulario
+
+autofocus = da foco ao campo que deve inicar a digitaçao - apenas 1 deve possuir
+
+label = ajuda na identificaçao da informaçao que deve ser inserida no campo - com o atributo for, podemos linkar o id do campo à essa etiqueta
+
+radio buttom = vai selecionar apenas uma opçao - para que esse componente funcione, os names obrigatoriamente devem ser iguais em campos onde o usuario escolhe/seleciona a opçao, o VALUE É OBRIGATORIO
+
+checked- inicia com a opçao selecionada - funciona em radio e checkbox
+
+file - area de escolha de arquivo a ser enviado - HTML NAO ENVIA - precisamos de uma linguagem para efetuar a ação
+
+required - define que o campo deve ser preenchido
